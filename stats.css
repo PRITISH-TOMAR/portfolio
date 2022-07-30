@@ -1,0 +1,118 @@
+body{
+    background-image: url(/bg2.webp);
+    color: white;
+    background-repeat:repeat-y;
+    background-size: 100%,100%;
+    background-attachment:fixed ;
+    font-size: 19px;
+    text-decoration: none;
+    user-select: none;
+}
+.div{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius:5vw;
+    margin: 2vh;
+    width: 65%;
+    padding:1vw;
+   
+
+}
+#top{
+    display: flex;
+    justify-content: center;
+   
+}
+.t1{
+    font: bold;
+    font-size: 6vw;
+    text-shadow: 4px 4px 4px silver ;
+}
+.para{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: bolder;
+}
+.in{
+    font-size:2.3rem;
+    color: white;
+    /* border: 1px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+/* ............................ */
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius: 30px;
+    
+
+
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 75%; background-color: #2196F3;} /* Blue */
+  .js {width: 40%; background-color: #f44336;} /* Red */
+  .ml {width: 60%; background-color: #f6bfbf;} /* Dark Grey */
+  .node {width: 55%; background-color: #0400ff;} /* Dark Grey */
+  .ve {width: 65%; background-color: cyan;} /* Dark Grey */
+  .c {width: 80%; background-color: brown;} /* Dark Grey */
+  /* ................. */
+  .i{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    font-size: 2em;
+  }
+
+  .img{
+    margin: 1.5em;
+border: 2px solid white;
+width: 90%;
+height: 50%;
+
+  }
+
+
+  #div2{border-color: rgb(255, 255, 255);
+ width: 80%;
+}
+#div3{border-color: rgb(255, 255, 255);
+   width: 80%;
+}
+
+/* ................................ */
+#nav{
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+.li{font-size: 1.8vw;
+    width: 10%;
+    
+    margin: 2%;
+    padding:0.2em ;
+    border: 2px solid red;
+    
+    display: flex;
+    justify-content: center;
+}
+#pt{
+    position: relative;
+    right: ;
+}
+a{
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    transform: scale(1.4);
+    color: yellow;
+    
+}
